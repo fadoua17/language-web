@@ -15,14 +15,15 @@
 <script>
 function afficher(){
 	if (document.getElementById('liste').style.display == 'block'){
-       elt = document.getElementById('plus-exp');
-		elt.className = "icon-minus";
+        elt = document.getElementById('plus-exp');
+		elt.className = "icon-plus";
 		document.getElementById('liste').style.display = 'none';
 		
 			}		
 	else{
-	    elt = document.getElementById('plus-exp');
-		elt.className = "icon-plus";
+	elt = document.getElementById('plus-exp');
+		elt.className = "icon-minus";
+	   
      document.getElementById('liste').style.display = 'block';
 		}
 }
