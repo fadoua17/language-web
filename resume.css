@@ -1,0 +1,36 @@
+#wrapper h2{
+
+font-family: berkshire-swash, cursive;
+}
+
+#wrapper{
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+#header img{
+float : right;
+}
+
+#fonction{
+margin-top:100px;
+text-align:center;
+
+}
+
+
+
+#section1{
+margin-top:80px;
+}
+
+
+#section2{
+margin-top:80px;
+}
+
+
+#section3{
+margin-top:80px;
+}
