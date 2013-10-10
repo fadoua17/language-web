@@ -20,7 +20,9 @@ text-align:center;
 }
 
 
-
+#liste{
+display:none;
+}
 #section1{
 margin-top:80px;
 }

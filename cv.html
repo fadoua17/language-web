@@ -12,6 +12,21 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <script src="http://use.edgefonts.net/berkshire-swash.js"></script> 
+<script>
+function afficher(){
+	if (document.getElementById('liste').style.display == 'block'){
+       elt = document.getElementById('plus-exp');
+		elt.className = "icon-minus";
+		document.getElementById('liste').style.display = 'none';
+		
+			}		
+	else{
+	    elt = document.getElementById('plus-exp');
+		elt.className = "icon-plus";
+     document.getElementById('liste').style.display = 'block';
+		}
+}
+</script>
 
 <!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -62,12 +77,21 @@
 	</div>
 	
 	<div id="section2">
-	<h2>Exp&eacuteriences professionnelles </h2>
+	<h2> <i id="plus-exp" class="icon-plus" name="plus" onclick="afficher();"></i> Exp&eacuteriences professionnelles </h2>
 	<hr>
+	<ul id="liste" >
+	<li>Travaux contrôle de gestion : Suivi du reporting et des tableaux de bord détaillés de la société.</li>
+	<li>Analyse des résultats réels et provisionnels.</li>
+	<li>Élaboration des budgets.</li>
+	<li>Travaux comptables : Suivi des positions bancaires.</li>
+	<li>Élaboration des états de rapprochement.</li>
+	<li>Réglements fournisseurs/salariés; saisie.</li>
+	<li>Analyse des comptes charges sociales clients et fournisseurs.</li>
+	</ul>
 	</div>
 	
 	<div id="section3">
-	<h2>Exp&eacuteriences professionnelles </h2>
+	<h2> <i id="plus-forma" class="icon-plus" name="plus" onclick="afficher();"></i>Exp&eacuteriences professionnelles </h2>
 	<hr>
 	</div>
 	
